@@ -16,7 +16,7 @@
   --color-background-card: #684632;
 }
 
-body{
+body {
   margin: 0;
 }
 
@@ -30,18 +30,17 @@ body{
   padding: 1em;
 }
 
-.main, 
+.main,
 .footer {
   font-family: var(--font-family-text);
   display: grid;
   place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(22em, 1fr));
 }
 
 .main {
   background-color: var(--color-background-main);
-  height: 100vh;
 }
-
 
 .footer {
   background-color: var(--color-background-footer);
