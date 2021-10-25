@@ -1,0 +1,18 @@
+.searchInput {
+    width: 15rem;
+    height: 3rem;
+    border: none;
+    padding-left: 1rem;
+}
+
+.searchBar {
+    background-color: var(--color-background-header);
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.searchButton {
+    border: none;
+    background-color: #945f89;
+}
