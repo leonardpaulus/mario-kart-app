@@ -1,4 +1,4 @@
-import { createElement } from './elements';
+import { createElement } from '../lib/elements';
 
 export function createHeaderElement() {
   const headerElement = createElement('header', { className: 'header' }, [
